@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Source+Sans+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+:root {
+    --white: #ffffff;
+    --grey: rgb(51, 51, 51);
+    --lightGrey: rgb(180, 180, 180);
+    --blue: rgb(69, 237, 252);
+    --golden: rgb(230, 181, 11);
+    --goldenLight: rgba(230, 181, 11, 0.1);
+}
+
+.container {
+    position: relative;
+}
+
+.header_img {
+    width: 100%;
+}
+
+.heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--white);
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+}
+
+.profile_pic {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.profile_name {
+    text-align: center;
+    margin-top: 55px;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: var(--grey);
+    font-weight: bold;
+}
+
+/* content */
+.show_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.show {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin: 50px 0;
+    border: 1px solid var(--lightGrey);
+    padding: 15px;
+}
+
+.show_img {
+    width: 20%;
+    margin-right: 15px;
+}
+
+.show_content {
+    width: 80%
+}
+
+.show_head {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--grey)
+}
+
+.show_premier {
+    color: var(--blue);
+    text-decoration: none;
+}
+
+.show_description {
+    font-size: 18px;
+    line-height: 32px;
+    color: var(--grey);
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 15px;
+}
+
+.show_genres {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.genres_head {
+    font-size: 18px;
+    color: var(--grey);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+.genres {
+    color: var(--golden);
+    font-size: 16px;
+    background-color: var(--goldenLight);;
+    font-weight: bold;
+    padding: 8px;
+    margin: 0px 4px;
+}
