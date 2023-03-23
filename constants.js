@@ -1,4 +1,4 @@
-const TV_SHOWS = [
+export const TV_SHOWS = [
     {
         "name": "The Witcher",
         "genres": ["Drama", "Action", "Fantasy"],
